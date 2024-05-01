@@ -1,0 +1,26 @@
+{
+	"request": {
+		"urlPath": "/api/now/table/incident",
+		"method": "GET",
+		"queryParameters": {
+			"course_name": {
+				"matches": ".*"
+			},
+			"type": {
+				"matches": ".*"
+			}
+		}
+	},
+	"response": {
+		"jsonBody": {
+			"Course Deatils": [
+			        {
+			            "course":"{{request.query.course_name}}",
+			            "type"  :"{{request.query.type}}",
+			            "fee" : "{{randomValue length=5 type='NUMERIC'}}",
+			            "time":"{{now offset='5 days' format='yyyy-MM-dd hh:mm:ss'}}"
+		             }
+	            ]
+	      }
+	}
+}

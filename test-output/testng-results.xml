@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2152" started-at="2023-10-08T16:36:45 IST" finished-at="2023-10-08T16:36:47 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2152" started-at="2023-10-08T16:36:45 IST" finished-at="2023-10-08T16:36:47 IST">
+      <class name="com.mock.learnTemplate">
+        <test-method status="PASS" signature="createIncWithOutBody()[pri:0, instance:com.mock.learnTemplate@480bdb19]" name="createIncWithOutBody" duration-ms="2104" started-at="2023-10-08T16:36:45 IST" finished-at="2023-10-08T16:36:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIncWithOutBody -->
+      </class> <!-- com.mock.learnTemplate -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
